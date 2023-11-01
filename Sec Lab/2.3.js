@@ -1,0 +1,13 @@
+var t = 'Чтобы  жить  лучше,  нужно  делать  больше.   Больше,  чем  раньше.  Больше,  чем  другие. ';
+var s = '';
+var nl, ns, nw;
+nl = 5;
+ns = 3;
+nw = 3;
+WScript.Echo(t.length);
+WScript.Echo(t);
+len = t.length;
+WScript.Echo('длина =' +len);
+t=t.replace(/  /gi, ' ');
+WScript.Echo(t);
+WScript.Echo(t[2]);
